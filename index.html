@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Country Comparer</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+        <div id="main">
+            <div id="center">
+                <h1>Which Country Is More Populous?</h1>
+                <p>By Adam Giles</p>
+                </br>
+                <div id="reset-div">
+                    <button onclick="resetChoices()">Next Round</button>
+                    <p id="rounds-label">rounds: 0</p>
+                    <p id="correct-label">correct: 0</p>
+                </div>
+                </br>
+                <div id="countries">
+                    <div id="choice1">
+                        <button id="but1" class="choice-button" onclick="choice1Func()">United States of America</button>
+                        <p id="pop1"></p>
+                    </div>
+                    <div id="choice-divider">
+                        <p id="pop2"></p>
+                    </div>
+                    <div id="choice2">
+                        <button id="but2" class="choice-button" onclick="choice2Func()">Canada</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>
